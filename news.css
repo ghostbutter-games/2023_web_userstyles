@@ -1,0 +1,139 @@
+/* ==UserStyle==
+@name           News Blocker
+@namespace      news-blocker
+@version        1.0.0
+@description    Completely hide the body of common news sites (English, German)
+@author         konsuko
+==/UserStyle== */
+
+@-moz-document domain("washingtonpost.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("forbes.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("tmz.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("huffpost.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("msn.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("reuters.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("bloomberg.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("foxnews.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("yahoo.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("nbc.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("cbs.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("nbcnews.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("buzzfeed.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("nytimes.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("theguardian.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("cnn.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("spiegel.de") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("tagesschau.de") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("zeit.de") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("t-online.de") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("bild.de") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("n-tv.de") {
+  body {
+    display: none;
+  }
+}

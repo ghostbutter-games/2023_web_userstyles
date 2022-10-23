@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Hacker News Tweaks
+@namespace      news.ycombinator.com
+@version        1.0.0
+@description    Hides a bunch of addictive Hacker News stuff.
+@author         konsuko
+==/UserStyle== */
+
+@-moz-document domain("news.ycombinator.com") {
+    .itemlist {
+	display: none;
+    }
+}

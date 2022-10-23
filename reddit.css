@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name           Reddit Tweaks
+@namespace      reddit.com
+@version        1.0.0
+@description    Hides a bunch of addictive Reddit stuff.
+@author         konsuko
+==/UserStyle== */
+
+@-moz-document domain("reddit.com") {
+    /* This should hide the ALL, POPULAR and RANDOM Buttons on the top bar */
+    /*.sr-list .flat-list:first-of-type li:nth-child(2) {*/
+    /*display: none;*/
+    /*}*/
+    /*.sr-list .flat-list:first-of-type li:nth-child(3) {*/
+    /*display: none;*/
+    /*}*/
+    /*.sr-list .flat-list:first-of-type li:nth-child(4) {*/
+    /*display: none;*/
+    /*}*/
+    /* This hides all feeds/listings */
+    [data-context="listing"] {
+        display: none;
+    }
+}
