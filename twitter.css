@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           Twitter Tweaks
+@namespace      twitter.com
+@version        1.0.0
+@description    Hides a bunch of addictive Twitter stuff.
+@author         konsuko
+==/UserStyle== */
+@-moz-document domain("twitter.com") {
+    [aria-label='Relevant people'] {
+        display: none;
+    }
+
+    [aria-label='Timeline: Trending now'] {
+        display: none;
+    }
+
+    [aria-label='Who to follow'] {
+        display: none;
+    }
+
+    [aria-label='Search and explore'] {
+        display: none;
+    }
+
+    [aria-label='Trends for you'] {
+        display: none;
+    }
+
+    [aria-label='Timeline: Your Home Timeline'] {
+        display: none;
+    }
+}
