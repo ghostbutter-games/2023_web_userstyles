@@ -6,6 +6,18 @@
 @author         konsuko
 ==/UserStyle== */
 @-moz-document domain("twitter.com") {
+    [aria-label='Home timeline'] {
+        display: none;
+    }
+    
+    [aria-label='Timeline: Conversation'] {
+        display: flex !important;
+    }
+    
+    [aria-labelledby='accessible-list-1'] {
+        display: none;
+    }
+    
     [aria-label='Relevant people'] {
         display: none;
     }

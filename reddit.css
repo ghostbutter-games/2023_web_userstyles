@@ -6,19 +6,27 @@
 @author         konsuko
 ==/UserStyle== */
 
-@-moz-document domain("reddit.com") {
-    /* This should hide the ALL, POPULAR and RANDOM Buttons on the top bar */
-    /*.sr-list .flat-list:first-of-type li:nth-child(2) {*/
-    /*display: none;*/
-    /*}*/
-    /*.sr-list .flat-list:first-of-type li:nth-child(3) {*/
-    /*display: none;*/
-    /*}*/
-    /*.sr-list .flat-list:first-of-type li:nth-child(4) {*/
-    /*display: none;*/
-    /*}*/
-    /* This hides all feeds/listings */
-    [data-context="listing"] {
-        display: none;
+/*@-moz-document domain("reddit.com"), url("https://www.reddit.com/r/all/"), url("https://www.reddit.com/r/popular/") {*/
+    @document regexp("https://www\.reddit\.com/.*") {
+        /* This should hide the ALL, POPULAR and RANDOM Buttons on the top bar */
+        /*.sr-list .flat-list:first-of-type li:nth-child(2) {*/
+        /*display: none;*/
+        /*}*/
+        /*.sr-list .flat-list:first-of-type li:nth-child(3) {*/
+        /*display: none;*/
+        /*}*/
+        /*.sr-list .flat-list:first-of-type li:nth-child(4) {*/
+        /*display: none;*/
+        /*}*/
+        /* This hides all feeds/listings */
+            
+        body {display: none;}
+        
+        #sr-header-area {
+            display: none;
+        }
+    
+        [data-context="listing"] {
+            display: none;
+        }
     }
-}

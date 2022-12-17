@@ -6,8 +6,8 @@
 @author         konsuko
 ==/UserStyle== */
 
-@-moz-document domain("news.ycombinator.com") {
-    .itemlist {
-	display: none;
+@-moz-document regexp("https://news\.ycombinator\.com/.*") {
+    body {
+	    display: none;
     }
 }
