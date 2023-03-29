@@ -12,6 +12,12 @@
   }
 }
 
+@-moz-document domain("aljazeera.com") {
+  body {
+    display: none;
+  }
+}
+
 @-moz-document domain("forbes.com") {
   body {
     display: none;
