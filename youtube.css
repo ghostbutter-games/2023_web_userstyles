@@ -6,7 +6,7 @@
 @author         konsuko
 ==/UserStyle== */
 
-@-moz-document domain("m.youtube.com") {
+@-moz-document domain("youtube.com") {
 
     /* Hide the Shorts button */
     .pivot-shorts {
