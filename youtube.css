@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           YouTube Blocker
+@namespace      youtube-blocker
+@version        1.0.0
+@description    Make YouTube less addictive on Mobile, hide Shorts etc.
+@author         konsuko
+==/UserStyle== */
+
+/* Hide the Shorts button */
+.pivot-shorts {
+    display: none;
+}
+
+/* Hide the Home button */
+.pivot-w2w {
+    display: none;
+}
