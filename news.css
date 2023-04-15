@@ -143,3 +143,15 @@
     display: none;
   }
 }
+
+@-moz-document domain("theverge.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("polygon.com") {
+  body {
+    display: none;
+  }
+}
