@@ -6,12 +6,15 @@
 @author         konsuko
 ==/UserStyle== */
 
-/* Hide the Shorts button */
-.pivot-shorts {
-    display: none;
-}
+@-moz-document domain("m.youtube.com") {
 
-/* Hide the Home button */
-.pivot-w2w {
-    display: none;
+    /* Hide the Shorts button */
+    .pivot-shorts {
+        display: none;
+    }
+
+    /* Hide the Home button */
+    .pivot-w2w {
+        display: none;
+    }
 }
