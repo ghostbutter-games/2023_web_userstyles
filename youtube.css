@@ -6,9 +6,25 @@
 @author         konsuko
 ==/UserStyle== */
 
+@-moz-document domain("youtube.com"),
+domain("m.youtube.com") {
+
+    /* Hide the Shorts button */
+    .shorts-button,
+    .pivot-shorts {
+        display: none;
+    }
+
+    /* Hide the Home button */
+    .home-button,
+    .pivot-w2w {
+        display: none;
+    }
+}
+
 @-moz-document url("https://www.youtube.com/"),
 url("https://m.youtube.com/") {
-    #primary {
+    body {
         display: none;
     }
 }
@@ -23,22 +39,6 @@ url-prefix("https://m.youtube.com/watch") {
 @-moz-document url-prefix("https://www.youtube.com/feed/subscriptions"),
 url-prefix("https://m.youtube.com/feed/subscriptions") {
     body {
-        display: none;
-    }
-}
-
-@-moz-document domain("youtube.com"),
-domain("m.youtube.com") {
-
-    /* Hide the Shorts button */
-    .shorts-button,
-    .pivot-shorts {
-        display: none;
-    }
-
-    /* Hide the Home button */
-    .home-button,
-    .pivot-w2w {
         display: none;
     }
 }
