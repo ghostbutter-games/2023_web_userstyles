@@ -9,6 +9,10 @@
 @-moz-document domain("youtube.com"),
 domain("m.youtube.com") {
 
+    body {
+        display: none;
+    }
+
     /* Hide the Shorts button */
     .shorts-button,
     .pivot-shorts {
