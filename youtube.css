@@ -22,15 +22,15 @@ domain("m.youtube.com") {
     }
 }
 
-@-moz-document url("https://www.youtube.com"),
-url("https://m.youtube.com") {
+@document url("https://www.youtube.com/"),
+url("https://m.youtube.com/") {
     body {
         display: none;
     }
 }
 
-@-moz-document url-prefix("https://www.youtube.com/watch"),
-url-prefix("https://m.youtube.com/watch") {
+@document url("https://www.youtube.com/watch"),
+url("https://m.youtube.com/watch") {
     body {
         display: block;
     }
