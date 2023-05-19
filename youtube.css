@@ -22,8 +22,8 @@ domain("m.youtube.com") {
     }
 }
 
-@-moz-document url("https://www.youtube.com/"),
-url("https://m.youtube.com/") {
+@-moz-document url("https://www.youtube.com"),
+url("https://m.youtube.com") {
     body {
         display: none;
     }
