@@ -6,6 +6,30 @@
 @author         konsuko
 ==/UserStyle== */
 
+@-moz-document domain("japantimes.co.jp") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("nhk.or.jp") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("www3.nhk.or.jp") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("japantoday.com") {
+  body {
+    display: none;
+  }
+}
+
 @-moz-document domain("washingtonpost.com") {
   body {
     display: none;
