@@ -6,6 +6,24 @@
 @author         konsuko
 ==/UserStyle== */
 
+@-moz-document domain("eurogamer.net") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("kotaku.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("pcgamer.com") {
+  body {
+    display: none;
+  }
+}
+
 @-moz-document domain("japantimes.co.jp") {
   body {
     display: none;
