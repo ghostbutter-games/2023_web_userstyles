@@ -6,6 +6,18 @@
 @author         konsuko
 ==/UserStyle== */
 
+@-moz-document domain("gamedeveloper.com") {
+  body {
+    display: none;
+  }
+}
+
+@-moz-document domain("rockpapershotgun.com") {
+  body {
+    display: none;
+  }
+}
+
 @-moz-document domain("eurogamer.net") {
   body {
     display: none;
