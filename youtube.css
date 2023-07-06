@@ -28,6 +28,10 @@ domain("m.youtube.com") {
     [role=tablist] {
         display: none;
     }
+
+    lazy-list {
+        display: none;
+    }
 }
 
 @document url("https://www.youtube.com/"),
@@ -41,6 +45,10 @@ url("https://m.youtube.com/") {
     }
 
     [role=tablist] {
+        display: none;
+    }
+
+    lazy-list {
         display: none;
     }
 }
@@ -58,6 +66,10 @@ url("https://m.youtube.com/watch") {
     [role=tablist] {
         display: none;
     }
+
+    lazy-list {
+        display: none;
+    }
 }
 
 @-moz-document url-prefix("https://www.youtube.com/feed/subscriptions"),
@@ -71,6 +83,10 @@ url-prefix("https://m.youtube.com/feed/subscriptions") {
     }
 
     [role=tablist] {
+        display: none;
+    }
+
+    lazy-list {
         display: none;
     }
 }
