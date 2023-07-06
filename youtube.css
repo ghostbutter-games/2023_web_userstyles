@@ -20,6 +20,14 @@ domain("m.youtube.com") {
     .pivot-w2w {
         display: none;
     }
+
+    #header-bar {
+        display: none;
+    }
+
+    [role=tablist] {
+        display: none;
+    }
 }
 
 @document url("https://www.youtube.com/"),
