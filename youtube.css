@@ -50,6 +50,14 @@ url("https://m.youtube.com/watch") {
     body {
         display: block;
     }
+
+    #header-bar {
+        display: none;
+    }
+
+    [role=tablist] {
+        display: none;
+    }
 }
 
 @-moz-document url-prefix("https://www.youtube.com/feed/subscriptions"),
