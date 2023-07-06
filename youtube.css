@@ -29,19 +29,7 @@ domain("m.youtube.com") {
         display: none;
     }
 
-    lazy-list {
-        display: none;
-    }
-
-    .item {
-        visibility: hidden;
-    }
-
-    .media-item-thumbnail-container {
-        display: none;
-    }
-
-    .single-column-watch-next-modern-panels {
+    .watch-below-the-player {
         display: none;
     }
 }
@@ -60,19 +48,7 @@ url("https://m.youtube.com/") {
         display: none;
     }
 
-    lazy-list {
-        display: none;
-    }
-
-    .item {
-        visibility: hidden;
-    }
-
-    .media-item-thumbnail-container {
-        display: none;
-    }
-
-    .single-column-watch-next-modern-panels {
+    .watch-below-the-player {
         display: none;
     }
 }
@@ -91,19 +67,7 @@ url("https://m.youtube.com/watch") {
         display: none;
     }
 
-    lazy-list {
-        display: none;
-    }
-
-    .item {
-        visibility: hidden;
-    }
-
-    .media-item-thumbnail-container {
-        display: none;
-    }
-
-    .single-column-watch-next-modern-panels {
+    .watch-below-the-player {
         display: none;
     }
 }
@@ -122,19 +86,7 @@ url-prefix("https://m.youtube.com/feed/subscriptions") {
         display: none;
     }
 
-    lazy-list {
-        display: none;
-    }
-
-    .item {
-        visibility: hidden;
-    }
-
-    .media-item-thumbnail-container {
-        display: none;
-    }
-
-    .single-column-watch-next-modern-panels {
+    .watch-below-the-player {
         display: none;
     }
 }
