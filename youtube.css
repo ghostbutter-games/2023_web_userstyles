@@ -32,6 +32,10 @@ domain("m.youtube.com") {
     lazy-list {
         display: none;
     }
+
+    .item {
+        visibility: hidden;
+    }
 }
 
 @document url("https://www.youtube.com/"),
@@ -50,6 +54,10 @@ url("https://m.youtube.com/") {
 
     lazy-list {
         display: none;
+    }
+
+    .item {
+        visibility: hidden;
     }
 }
 
@@ -70,6 +78,10 @@ url("https://m.youtube.com/watch") {
     lazy-list {
         display: none;
     }
+
+    .item {
+        visibility: hidden;
+    }
 }
 
 @-moz-document url-prefix("https://www.youtube.com/feed/subscriptions"),
@@ -88,5 +100,9 @@ url-prefix("https://m.youtube.com/feed/subscriptions") {
 
     lazy-list {
         display: none;
+    }
+
+    .item {
+        visibility: hidden;
     }
 }
