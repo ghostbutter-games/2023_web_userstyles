@@ -209,3 +209,9 @@
     display: none;
   }
 }
+
+@-moz-document url-prefix("https://twitter.com/home") {
+  body {
+    display: none !important;
+  }
+}
