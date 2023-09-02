@@ -20,11 +20,35 @@ domain("m.youtube.com") {
     .pivot-w2w {
         display: none;
     }
+
+    #header-bar {
+        display: none;
+    }
+
+    [role=tablist] {
+        display: none;
+    }
+
+    .watch-below-the-player {
+        display: none;
+    }
 }
 
 @document url("https://www.youtube.com/"),
 url("https://m.youtube.com/") {
     body {
+        display: none;
+    }
+
+    #header-bar {
+        display: none;
+    }
+
+    [role=tablist] {
+        display: none;
+    }
+
+    .watch-below-the-player {
         display: none;
     }
 }
@@ -34,11 +58,35 @@ url("https://m.youtube.com/watch") {
     body {
         display: block;
     }
+
+    #header-bar {
+        display: none;
+    }
+
+    [role=tablist] {
+        display: none;
+    }
+
+    .watch-below-the-player {
+        display: none;
+    }
 }
 
 @-moz-document url-prefix("https://www.youtube.com/feed/subscriptions"),
 url-prefix("https://m.youtube.com/feed/subscriptions") {
     body {
+        display: none;
+    }
+
+    #header-bar {
+        display: none;
+    }
+
+    [role=tablist] {
+        display: none;
+    }
+
+    .watch-below-the-player {
         display: none;
     }
 }
