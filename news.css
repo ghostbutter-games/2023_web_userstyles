@@ -6,6 +6,12 @@
 @author         konsuko
 ==/UserStyle== */
 
+@-moz-document domain("apnews.com") {
+  body {
+    display: none;
+  }
+}
+
 @-moz-document domain("gamedeveloper.com") {
   body {
     display: none;
