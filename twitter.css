@@ -5,19 +5,31 @@
 @description    Hides a bunch of addictive Twitter stuff.
 @author         konsuko
 ==/UserStyle== */
+@-moz-document domain("nitter.net") {
+    html {
+        display: none;
+    }
+}
+
+@-moz-document domain("adminforge.de") {
+    html {
+        display: none;
+    }
+}
+
 @-moz-document domain("twitter.com") {
     [aria-label='Home timeline'] {
         display: none;
     }
-    
+
     [aria-label='Timeline: Conversation'] {
         display: flex !important;
     }
-    
+
     [aria-labelledby='accessible-list-1'] {
         display: none;
     }
-    
+
     [aria-label='Relevant people'] {
         display: none;
     }
