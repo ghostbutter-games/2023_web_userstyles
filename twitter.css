@@ -17,6 +17,13 @@
     }
 }
 
+
+/* @-moz-document url-prefix("https://twitter.com/home") {
+    body {
+        display: none !important;
+    }
+} */
+
 /* @-moz-document domain("twitter.com") {
     [aria-label='Home timeline'] {
         display: none;
