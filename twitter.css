@@ -17,7 +17,7 @@
     }
 }
 
-@-moz-document domain("twitter.com") {
+/* @-moz-document domain("twitter.com") {
     [aria-label='Home timeline'] {
         display: none;
     }
@@ -57,4 +57,4 @@
     [aria-label='Timeline: Your Home Timeline'] {
         display: none;
     }
-}
+} */
