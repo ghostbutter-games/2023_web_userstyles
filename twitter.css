@@ -17,11 +17,11 @@
     }
 }
 
-/* @-moz-document domain("x.com") {
+@-moz-document domain("x.com") {
     html {
         display: none;
     }
-} */
+}
 
 @-moz-document domain("twitter.com") {
     html {
