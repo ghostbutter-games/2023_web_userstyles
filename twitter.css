@@ -17,6 +17,19 @@
     }
 }
 
+@-moz-document domain("x.com") {
+    html {
+        display: none;
+    }
+}
+
+@-moz-document domain("twitter.com") {
+    html {
+        display: none;
+    }
+}
+
+/* 
 @-moz-document url-prefix("https://twitter.com/home") {
     body {
         display: none !important;
@@ -63,4 +76,4 @@
     [aria-label='Timeline: Your Home Timeline'] {
         display: none;
     }
-}
+} */
