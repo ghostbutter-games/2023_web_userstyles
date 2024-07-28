@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           YouTube Blocker
 @namespace      youtube-blocker
-@version        1.0.0
-@description    Make YouTube less addictive on Mobile, hide Shorts etc.
+@version        1.1.0
+@description    Make YouTube less addictive on Mobile, hide Shorts, Home, and Channel views.
 @author         konsuko
 ==/UserStyle== */
 
@@ -74,7 +74,7 @@ url("https://m.youtube.com/watch") {
 
 @-moz-document url-prefix("https://www.youtube.com/feed/subscriptions"),
 url-prefix("https://m.youtube.com/feed/subscriptions") {
-    /* body {
+    body {
         display: none;
     }
 
@@ -88,5 +88,28 @@ url-prefix("https://m.youtube.com/feed/subscriptions") {
 
     .watch-below-the-player {
         display: none;
-    } */
+    }
+}
+
+@-moz-document url-prefix("https://www.youtube.com/channel/"),
+url-prefix("https://www.youtube.com/c/"),
+url-prefix("https://www.youtube.com/user/"),
+url-prefix("https://m.youtube.com/channel/"),
+url-prefix("https://m.youtube.com/c/"),
+url-prefix("https://m.youtube.com/user/") {
+    body {
+        display: none;
+    }
+
+    #header-bar {
+        display: none;
+    }
+
+    [role=tablist] {
+        display: none;
+    }
+
+    .watch-below-the-player {
+        display: none;
+    }
 }
