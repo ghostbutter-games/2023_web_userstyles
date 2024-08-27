@@ -21,8 +21,11 @@
 /*     html {
         display: none;
     } */
-    a[href*="/home"] {
+/*     a[href*="/home"] {
         display: none !important;
+    } */
+    a[href*="/home?f=for_you"] {
+    display: none !important;
     }
 }
 
