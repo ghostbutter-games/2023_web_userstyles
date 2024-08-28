@@ -18,12 +18,12 @@
 }
 
 @-moz-document domain("x.com") {
-/*     html {
+    html {
         display: none;
-    } */
-    a[href*="/home"] {
-        display: none !important;
     }
+/*     a[href*="/home"] {
+        display: none !important;
+    } */
 }
 
 @-moz-document domain("twitter.com") {
