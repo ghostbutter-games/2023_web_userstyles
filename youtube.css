@@ -5,7 +5,9 @@
 @description    Make YouTube less addictive on Mobile, hide Shorts, Home, and Channel views.
 @author         konsuko
 ==/UserStyle== */
-
+.hidden {
+    display: none;
+}
 @-moz-document domain("youtube.com"),
 domain("m.youtube.com") {
 
